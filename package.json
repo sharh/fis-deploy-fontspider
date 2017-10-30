@@ -1,6 +1,6 @@
 {
   "name": "fis-deploy-fontspider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a fis3 deploy plugin with fontspider",
   "main": "index.js",
   "keywords": [
@@ -8,6 +8,10 @@
     "plugin",
     "fontspider"
   ],
+  "git": "https://github.com/sharh/fis-deploy-fontspider.git",
   "author": "Mwing <mwing@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "font-spider": "^1.3.4"
+  }
 }

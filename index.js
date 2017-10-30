@@ -202,6 +202,7 @@ function process(options){
 	    htmlFiles = [];
 	    options.callback && options.callback(null,webFonts);
 	}).catch(function(err){
+    fis.log.error(err);
 		options.callback && options.callback(err);
 	});
 }
