@@ -1,0 +1,13 @@
+{
+  "name": "fis-deploy-fontspider",
+  "version": "1.0.0",
+  "description": "a fis3 deploy plugin with fontspider",
+  "main": "index.js",
+  "keywords": [
+    "fis3",
+    "plugin",
+    "fontspider"
+  ],
+  "author": "Mwing <mwing@163.com>",
+  "license": "MIT"
+}
