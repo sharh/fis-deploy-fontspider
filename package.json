@@ -1,6 +1,6 @@
 {
   "name": "fis-deploy-fontspider",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a fis3 deploy plugin with fontspider",
   "main": "index.js",
   "keywords": [

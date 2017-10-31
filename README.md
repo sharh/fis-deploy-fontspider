@@ -9,11 +9,21 @@ fis.hook( 'relative' );
 fis.match( '**.html', {
     deploy: [ fis.plugin( 'local-deliver', {
       to: './output'
-    } ) , fis.plugin( 'fontspider', options)]
+    } ) , fis.plugin( 'fontspider', {
+        to: './output'
+    })]
   } );
+
+// 或者
+fis.match( '**.html', {
+    deploy: [ fis.plugin( 'fontspider', {
+        to: './output'
+    })]
+  } );
+
 ```
 
-# options
+# Options
 
 > 参考[font-spider](https://github.com/aui/font-spider/blob/master/API.md#选项)
 
@@ -21,6 +31,7 @@ fis.match( '**.html', {
 {
 
     // 最终输出文件夹，deploy插件是在构建完成之后处理的，所以不影响源文件
+    // 必须配置此项，否则文件路径会出现问题
     "to": "./output",
 
     /*下列选项来自font-spider提供的选项*/
